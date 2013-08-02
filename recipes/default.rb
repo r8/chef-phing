@@ -9,3 +9,4 @@
 
 include_recipe "php"
 
+include_recipe "phing::#{node["phing"]["install_method"]}"
