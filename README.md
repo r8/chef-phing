@@ -21,6 +21,9 @@ Requirements
 Attributes
 ----------
 
+* `default["phing"]["install_method"]` — Phing installation method (only "pear" is currently supported)
+* `default["phing"]["version"]` — When installing via PEAR, this is the preferred state (stable, beta, devel) or a specific x.y.z PEAR version (eg. 4.5.0) (default: "stable")
+* `default["phing"]["allreleases"]` — URL of allreleases.xml for PEAR to install from preferred states (default: "http://pear.phing.info/rest/r/phing/allreleases.xml")
 
 License
 -------
