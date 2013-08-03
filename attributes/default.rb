@@ -5,8 +5,7 @@
 # Copyright 2013, Sergey Storchay
 #
 # Licensed under MIT:
-# http://raw.githu
-# b.com/r8/chef-phing/master/LICENSE.txt
+# http://raw.github.com/r8/chef-phing/master/LICENSE.txt
 
 # Phing install method (pear)
 default["phing"]["install_method"] = "pear"
