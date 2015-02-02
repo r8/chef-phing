@@ -10,7 +10,8 @@ version          "0.0.3"
   supports os
 end
 
-depends "php"
+depends 'php'
+depends 'composer'
 
 recipe "phing", "Installs Phing"
 recipe "phing::pear", "Installs Phing through PEAR"
