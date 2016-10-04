@@ -16,5 +16,5 @@ default["phing"]["preferred_state"] = "stable"
 
 # Composer specific settings
 default['phing']['install_dir'] = default['composer']['global_install']['install_dir']
-default['phing']['prefix'] = node['composer']['global_install']['bin_dir']
+default['phing']['prefix'] = default['composer']['global_install']['bin_dir']
 default['phing']['version'] = 'latest'
